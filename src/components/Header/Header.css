@@ -1,0 +1,17 @@
+.header {
+    display: flex;
+}
+.header-logo {
+    display: flex;
+    align-items: center;
+}
+.header-logo-img {
+    width: 40px;
+}
+.header-logo-title {
+    margin-left: 15px;
+    color: black;
+}
+.header-nav-list {
+    display: flex;
+}
