@@ -9,6 +9,7 @@
 body {
   margin: 0;
   padding: 15px;
+  background-color: aliceblue;
   font-family: sans-serif;
   line-height: 1.5;
 }
@@ -38,4 +39,5 @@ img {
 
 a {
   text-decoration: none;
+  color: black;
 }

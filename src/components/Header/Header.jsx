@@ -1,5 +1,7 @@
 import "./Header.css";
 import logo from "../../img/svg/logo.svg";
+import phone from "../../img/svg/phone.svg";
+import email from "../../img/svg/email.svg";
 
 export function Header() {
   return (
@@ -18,7 +20,7 @@ export function Header() {
             </li>
             <li className="header-nav-item">
               <a className="header-nav-link" href="/about">
-                Про лікара
+                Про лікаря
               </a>
             </li>
             <li className="header-nav-item">
@@ -29,8 +31,29 @@ export function Header() {
           </ul>
         </nav>
         <ul className="header-contacts-list">
-          <li className="header-contacts-item">qweqwe</li>
-          <li className="header-contacts-item">asdasd</li>
+          <li className="header-contacts-item">
+            <img
+              className="header-contacts-icon"
+              src={email}
+              alt="знак листа"
+            />
+            <a
+              className="header-contacts-link"
+              href="mailto:dantax13@gmail.com"
+            >
+              dantax13@gmail.com
+            </a>
+          </li>
+          <li className="header-contacts-item">
+            <img
+              className="header-contacts-icon"
+              src={phone}
+              alt="знак смартфона"
+            />
+            <a className="header-contacts-link" href="tel:+380637637670">
+              +380 63 763 76 701
+            </a>
+          </li>
         </ul>
       </header>
     </>

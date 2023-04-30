@@ -3,7 +3,7 @@ import "./About.css";
 const About = () => {
   return (
     <>
-      <p>qwe</p>
+      <section className="about-section"></section>
     </>
   );
 };

@@ -2,6 +2,7 @@ import "./App.css";
 import { Routes, Route, Navigate } from "react-router-dom";
 import { Suspense, lazy } from "react";
 import { Header } from "./Header/Header";
+import { Footer } from "./Footer/Footer";
 
 const Home = lazy(() => import("../pages/Home/Home"));
 const About = lazy(() => import("../pages/About/About"));
@@ -11,7 +12,7 @@ export function App() {
   return (
     <>
       <Header />
-      <Suspense fallback={<h2>Завантаження...</h2>}>
+      <Suspense fallback={<h2 className="suspense">Завантаження...</h2>}>
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
@@ -19,6 +20,7 @@ export function App() {
           <Route path="*" element={<Navigate to={"/"} />} />
         </Routes>
       </Suspense>
+      <Footer />
     </>
   );
 }

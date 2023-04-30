@@ -1,0 +1,14 @@
+.footer {
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+.footer-socials-list {
+    justify-content: center;
+    display: flex;
+}
+.footer-socials-item:not(:last-child) {
+    margin-right: 30px;
+}
+.footer-socials-img {
+    width: 40px;
+}

@@ -1,5 +1,7 @@
 .header {
     display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 .header-logo {
     display: flex;
@@ -10,8 +12,26 @@
 }
 .header-logo-title {
     margin-left: 15px;
-    color: black;
 }
 .header-nav-list {
     display: flex;
+}
+.header-nav-item:hover .header-nav-link,
+.header-nav-item:focus .header-nav-link {
+    color: rgb(207, 46, 46);
+    border-bottom: 2px solid rgb(207, 46, 46);
+}
+.header-nav-item:not(:last-child) {
+    margin-right: 15px;
+}
+.header-contacts-item {
+    display: flex;
+}
+.header-contacts-item:hover .header-contacts-link,
+.header-contacts-item:focus .header-contacts-link {
+    color: rgb(207, 46, 46);
+}
+.header-contacts-icon {
+    margin-right: 5px;
+    width: 15px;
 }

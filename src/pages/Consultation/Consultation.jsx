@@ -3,7 +3,7 @@ import "./Consultation.css";
 const Consultation = () => {
   return (
     <>
-      <p>asd</p>
+      <section className="consultation-section"></section>
     </>
   );
 };
