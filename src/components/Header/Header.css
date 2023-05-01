@@ -12,6 +12,7 @@
 }
 .header-logo-title {
     margin-left: 15px;
+    font-weight: bolder;
 }
 .header-nav-list {
     display: flex;
