@@ -51,7 +51,7 @@ export function Header() {
               alt="знак смартфона"
             />
             <a className="header-contacts-link" href="tel:+380637637670">
-              +380 63 763 76 701
+              +380 63 763 76 70
             </a>
           </li>
         </ul>
