@@ -24,6 +24,11 @@ export function Header() {
               </a>
             </li>
             <li className="header-nav-item">
+              <a className="header-nav-link" href="/testimonials">
+                Відгуки
+              </a>
+            </li>
+            <li className="header-nav-item">
               <a className="header-nav-link" href="/consultation">
                 Записатися на консультацію
               </a>
