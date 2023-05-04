@@ -30,6 +30,7 @@ export function ConsultationForm() {
             className="consultation-form-input"
             name="name"
             type="text"
+            minLength="1"
             maxLength="30"
             required
           />
@@ -40,7 +41,6 @@ export function ConsultationForm() {
             className="consultation-form-input"
             name="email"
             type="email"
-            maxLength="30"
             required
           />
         </label>
@@ -50,6 +50,7 @@ export function ConsultationForm() {
             className="consultation-form-input"
             name="tel"
             type="tel"
+            minLength="5"
             maxLength="30"
             required
           />
@@ -59,6 +60,7 @@ export function ConsultationForm() {
           <textarea
             className="consultation-form-text"
             name="text"
+            minLength="1"
             maxLength="3000"
             required
           />
