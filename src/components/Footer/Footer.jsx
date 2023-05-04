@@ -25,7 +25,7 @@ export function Footer() {
           <li className="footer-socials-item">
             <a
               className="footer-socials-link"
-              href="/"
+              href="https://www.linkedin.com/in/andrii-shabashov"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -39,7 +39,7 @@ export function Footer() {
           <li className="footer-socials-item">
             <a
               className="footer-socials-link"
-              href="/"
+              href=" https://t.me/Dr_Shabashov"
               target="_blank"
               rel="noopener noreferrer"
             >
