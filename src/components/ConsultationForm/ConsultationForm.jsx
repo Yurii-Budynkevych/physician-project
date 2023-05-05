@@ -65,7 +65,7 @@ export function ConsultationForm() {
             required
           />
         </label>
-        <button className="submit-btn" type="sumbit">
+        <button className="consultation-submit-btn" type="sumbit">
           Записатися
         </button>
       </form>
