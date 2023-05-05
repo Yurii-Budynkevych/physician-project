@@ -36,15 +36,6 @@ export function ConsultationForm() {
           />
         </label>
         <label className="consultation-form-label">
-          Електронна пошта
-          <input
-            className="consultation-form-input"
-            name="email"
-            type="email"
-            required
-          />
-        </label>
-        <label className="consultation-form-label">
           Телефон
           <input
             className="consultation-form-input"
@@ -52,6 +43,15 @@ export function ConsultationForm() {
             type="tel"
             minLength="5"
             maxLength="30"
+            required
+          />
+        </label>
+        <label className="consultation-form-label">
+          Електронна пошта
+          <input
+            className="consultation-form-input"
+            name="email"
+            type="email"
             required
           />
         </label>

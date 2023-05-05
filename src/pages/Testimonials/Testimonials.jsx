@@ -5,6 +5,7 @@ const Testimonials = () => {
   return (
     <>
       <section className="testimonials-section">
+        <div className="testimonials-box">qwe</div>
         <TestimonialsForm />
       </section>
     </>
