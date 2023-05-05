@@ -53,7 +53,6 @@
 .header-contacts-item:hover .header-contacts-link,
 .header-contacts-item:focus .header-contacts-link {
     color: rgb(74, 161, 249);
-    transition: color 250ms cubic-bezier(.08, .29, .79, .34);
 }
 .header-contacts-icon {
     margin-right: 5px;
