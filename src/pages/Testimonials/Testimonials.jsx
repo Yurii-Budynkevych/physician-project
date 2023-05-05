@@ -1,5 +1,6 @@
 import "./Testimonials.css";
 import { useState, useEffect } from "react";
+import { Loader } from "../../components/Loader/Loader";
 import { TestimonialsList } from "../../components/TestimonialsList/TestimonialsList";
 import { TestimonialsForm } from "../../components/TestimonialsForm/TestimonialsForm";
 import { getTestimonials, postTestimonials } from "../../utils/api";
@@ -27,7 +28,7 @@ const Testimonials = () => {
   if (loading) {
     return (
       <section className="testimonials-section">
-        <h2 className="suspense">Завантаження...</h2>
+        <Loader />
       </section>
     );
   }
