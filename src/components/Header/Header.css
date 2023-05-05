@@ -22,6 +22,9 @@
     display: flex;
 }
 .header-nav-link{
+    padding: 5px;
+    border-bottom: transparent;
+    border-radius: 10%; 
     color: black;
     font-family: 'Manrope';
     font-style: normal;
@@ -30,7 +33,9 @@
 }
 .header-nav-item:hover .header-nav-link,
 .header-nav-item:focus .header-nav-link {
-    color: rgb(132, 191, 250);
+    color: rgb(74, 161, 249);
+    border-bottom: 1px solid rgb(74, 161, 249);
+    transition: border-bottom 250ms cubic-bezier(.08, .29, .79, .34);
 }
 .header-nav-item:not(:last-child) {
     margin-right: 30px;
@@ -47,7 +52,8 @@
 }
 .header-contacts-item:hover .header-contacts-link,
 .header-contacts-item:focus .header-contacts-link {
-    color: rgb(132, 191, 250);
+    color: rgb(74, 161, 249);
+    transition: color 250ms cubic-bezier(.08, .29, .79, .34);
 }
 .header-contacts-icon {
     margin-right: 5px;
