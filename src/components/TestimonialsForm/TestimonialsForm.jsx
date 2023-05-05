@@ -8,10 +8,10 @@ export function TestimonialsForm() {
 
   const submitHandler = (e) => {
     e.preventDefault();
-    const data = JSON.stringify({
+    const data = {
       name: e.target.name.value.trim(),
       testimonial: e.target.text.value.trim(),
-    });
+    };
     console.log(data);
     e.target.reset();
     notificate();
