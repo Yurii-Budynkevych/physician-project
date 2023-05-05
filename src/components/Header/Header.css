@@ -30,7 +30,7 @@
 }
 .header-nav-item:hover .header-nav-link,
 .header-nav-item:focus .header-nav-link {
-    color: rgb(207, 46, 46);
+    color: rgb(132, 191, 250);
 }
 .header-nav-item:not(:last-child) {
     margin-right: 30px;
@@ -47,7 +47,7 @@
 }
 .header-contacts-item:hover .header-contacts-link,
 .header-contacts-item:focus .header-contacts-link {
-    color: rgb(207, 46, 46);
+    color: rgb(132, 191, 250);
 }
 .header-contacts-icon {
     margin-right: 5px;
