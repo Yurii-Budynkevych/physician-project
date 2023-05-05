@@ -5,7 +5,9 @@ const Testimonials = () => {
   return (
     <>
       <section className="testimonials-section">
-        <div className="testimonials-box">qwe</div>
+        <div className="testimonials-box">
+          <ul></ul>
+        </div>
         <TestimonialsForm />
       </section>
     </>
