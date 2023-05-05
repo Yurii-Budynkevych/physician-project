@@ -1,14 +1,21 @@
 import "./ConsultationForm.css";
 import Notiflix from "notiflix";
+import { postConsultation } from "../../utils/api";
 
 export function ConsultationForm() {
-  const notificate = () => {
+  const notificateSuccess = () => {
     Notiflix.Notify.success(
       "Успішно! Лікар зв'яжеться з Вами найближчим часом!"
     );
   };
+  const notificatePending = () => {
+    Notiflix.Notify.warning("Чекаємо у черзі");
+  };
+  const notificateFailure = () => {
+    Notiflix.Notify.failure("Упс, щось пішло не так...");
+  };
 
-  const submitHandler = (e) => {
+  const submitHandler = async (e) => {
     e.preventDefault();
     const data = {
       name: e.target.name.value.trim(),
@@ -16,9 +23,16 @@ export function ConsultationForm() {
       tel: e.target.tel.value.trim(),
       text: e.target.text.value.trim(),
     };
-    console.log(data);
+
+    notificatePending();
+    const result = await postConsultation(data);
+    if (!result) {
+      notificateFailure();
+      e.target.reset();
+      return;
+    }
+    notificateSuccess();
     e.target.reset();
-    notificate();
   };
 
   return (

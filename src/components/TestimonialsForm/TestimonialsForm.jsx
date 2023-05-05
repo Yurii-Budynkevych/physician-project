@@ -1,20 +1,15 @@
 import "./TestimonialsForm.css";
-import Notiflix from "notiflix";
+import PropTypes from "prop-types";
 
-export function TestimonialsForm() {
-  const notificate = () => {
-    Notiflix.Notify.success("Успішно!");
-  };
-
+export function TestimonialsForm({ onSubmit }) {
   const submitHandler = (e) => {
     e.preventDefault();
     const data = {
       name: e.target.name.value.trim(),
       testimonial: e.target.text.value.trim(),
     };
-    console.log(data);
+    onSubmit(data);
     e.target.reset();
-    notificate();
   };
 
   return (
@@ -51,3 +46,7 @@ export function TestimonialsForm() {
     </>
   );
 }
+
+TestimonialsForm.propTypes = {
+  onSubmit: PropTypes.func.isRequired,
+};

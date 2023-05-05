@@ -1,0 +1,22 @@
+.testimonials-list {
+    width: 100%;
+    margin-bottom: 100px;
+}
+.testimonials-list-item:not(:last-child) {
+    margin-bottom: 30px;
+}
+.testimonials-list-title {
+    margin-bottom: 5px;
+    color: black;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+}
+.testimonials-list-text {
+    color: black;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+}
