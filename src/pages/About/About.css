@@ -2,3 +2,51 @@
     padding-top: 100px;
     padding-bottom: 100px;
 }
+.about-section-aside {
+    float: right;
+    width: 400px;
+}
+.about-section-img {
+    width: 400px;
+}
+.about-section-img-title {
+    color: black;
+    font-family: 'Manrope';
+    font-style: italic;
+    font-weight: 400;
+    font-size: 14px;
+
+}
+.about-section-title {
+    margin-bottom: 200px;
+    color: black;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+}
+.about-section-item:not(:last-child) {
+    margin-bottom: 60px;
+}
+.about-section-list-box {
+    display: flex;
+}
+.about-section-subtitle {
+    margin-bottom: 15px;
+    color: black;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.about-section-text {
+    color: black;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+}
+.about-section-list-img {
+    width: 400px;
+    margin-right: 30px;
+}
