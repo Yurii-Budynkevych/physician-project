@@ -7,14 +7,74 @@
     position: absolute;
     top: 400px;
     right: 60px;
+
+    cursor: pointer;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: transparent;
+    border-radius: 50%;
 }
 .home-section-btn-decr {
     position: absolute;
     top: 400px;
     left: 60px;
+
+    cursor: pointer;
+    padding: 8px;
+    width: 40px;
+    height: 40px;
+    background-color: whitesmoke;
+    border: transparent;
+    border-radius: 50%;
 }
 .hero-section {
+    display: none;
+
     height: 600px;
-    background-image: url("../../img/operatingRoomSecond.jpg");
+    color: white;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    background-image:linear-gradient(
+        to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)), 
+        url("../../img/operatingRoomSecond.jpg");
     background-size: cover;
+}
+.hero-section-second {
+    display: none;
+        
+    height: 600px;
+    color: white;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url("../../img/equipmentModern.jpg");
+    background-size: cover;
+}
+.hero-section-third {
+    display: none;
+    
+    height: 600px;
+    color: white;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    background-image: linear-gradient(to right,
+            rgba(47, 48, 58, 0.4),
+            rgba(47, 48, 58, 0.4)),
+        url("../../img/hospitalWard.jpg");
+    background-size: cover;
+}
+.active {
+    display: block;
 }
