@@ -27,7 +27,7 @@
     font-size: 24px;
 }
 .about-section-item {
-    padding: 60px;
+    padding: 60px 40px;
 }
 .about-section-item:not(:last-child) {
     border-bottom: 1px solid rgb(132, 191, 250);
@@ -36,8 +36,8 @@
     display: flex;
 }
 .about-section-list-img {
-    width: 532px;
-    margin-right: 30px;
+    width: 500px;
+    margin-right: 60px;
 }
 .about-section-subtitle {
     margin-bottom: 15px;
