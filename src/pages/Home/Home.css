@@ -5,7 +5,7 @@
 }
 .home-section-btn-incr {
     position: absolute;
-    top: 400px;
+    top: 350px;
     right: 60px;
 
     cursor: pointer;
@@ -18,7 +18,7 @@
 }
 .home-section-btn-decr {
     position: absolute;
-    top: 400px;
+    top: 350px;
     left: 60px;
 
     cursor: pointer;
@@ -32,7 +32,7 @@
 .hero-section {
     display: none;
 
-    height: 600px;
+    height: 500px;
     color: white;
     font-family: 'Manrope';
     font-style: normal;
@@ -48,7 +48,7 @@
 .hero-section-second {
     display: none;
         
-    height: 600px;
+    height: 500px;
     color: white;
     font-family: 'Manrope';
     font-style: normal;
@@ -63,7 +63,7 @@
 .hero-section-third {
     display: none;
     
-    height: 600px;
+    height: 500px;
     color: white;
     font-family: 'Manrope';
     font-style: normal;
