@@ -15,7 +15,7 @@ const About = () => {
             alt="Андрій Шабашов в ординаторській"
           />
           <p className="about-section-img-title">
-            Постійне місце роботи Київська обл. м. Березань вул. Михайлівська,
+            Постійне місце роботи Київська обл., м. Березань, вул. Михайлівська,
             50 КОМУНАЛЬНЕ НЕКОМЕРЦІЙНЕ ПІДПРИЄМСТВО БЕРЕЗАНСЬКА МІСЬКА ЛІКАРНЯ
             БЕРЕЗАНСЬКОЇ МІСЬКОЇ РАДИ
           </p>
@@ -35,12 +35,22 @@ const About = () => {
               />
               <div className="about-section-text-box">
                 <h2 className="about-section-subtitle">Освіта</h2>
-                <p className="about-section-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam
-                  eaque, sapiente ratione repellat quam ad similique culpa
-                  aspernatur nemo exercitationem rerum doloribus impedit! Sequi
-                  nobis voluptatum nesciunt suscipit ad. Aliquam.
-                </p>
+                <ul className="about-section-sublist">
+                  <li className="about-section-sublist-item">
+                    Національний медичний університет імені О.О.Богомольця.
+                    Повна вища освіта Спеціальність: лікувальна справа,
+                    2011-2017р
+                  </li>
+                  <li className="about-section-sublist-item">
+                    Українська військово-медична академія. Присвоєне офіцерське
+                    звання «молодший лейтенант медичної служби» наказом МО
+                    України від 19.07.2017р №489
+                  </li>
+                  <li className="about-section-sublist-item">
+                    Національна академія післядипломної освіти ім. П.Л. Шупика
+                    Кафедра «хірургії та проктології», 2017-2020р
+                  </li>
+                </ul>
               </div>
             </div>
           </li>
@@ -53,12 +63,16 @@ const About = () => {
               />
               <div className="about-section-text-box">
                 <h2 className="about-section-subtitle">Досвід роботи</h2>
-                <p className="about-section-text">
-                  Lorem ipsum dolor sit amet consectetur adipisicing elit. Vero
-                  omnis earum, quis suscipit ullam enim molestiae tempore
-                  deleniti corrupti nihil! Ab id dicta nisi, adipisci fuga
-                  assumenda mollitia delectus iste?
-                </p>
+                <ul className="about-section-sublist">
+                  <li className="about-section-sublist-item">
+                    КНП КОР «Київська обласна клінічна лікарня» 2017-2020р
+                  </li>
+                  <li className="about-section-sublist-item">
+                    Київська обл., м. Березань, вул. Михайлівська, 50 комунальне
+                    некомерціййне підприємство "БЕРЕЗАНСЬКА МІСЬКА ЛІКАРНЯ
+                    БЕРЕЗАНСЬКОЇ МІСЬКОЇ РАДИ" 2020-сьогодні
+                  </li>
+                </ul>
               </div>
             </div>
           </li>
@@ -73,12 +87,16 @@ const About = () => {
                 <h2 className="about-section-subtitle">
                   Професійне удосконалення
                 </h2>
-                <p className="about-section-text">
-                  Lorem ipsum dolor sit amet, consectetur adipisicing elit. Illo
-                  sed vitae amet vero laborum impedit aliquid, nisi placeat
-                  cumque iste? Omnis, cum iste nam dolor quis delectus eligendi
-                  debitis tempore.
-                </p>
+                <ul className="about-section-sublist">
+                  <li className="about-section-sublist-item">
+                    2021р – Кваліфікаційний рівень «транспоант – координатор
+                    №26112100052»
+                  </li>
+                  <li className="about-section-sublist-item">
+                    2023р – Стаціонарна та амбулаторна паліативна допомога
+                    важкохворим пацацієнтам № ту-23/589
+                  </li>
+                </ul>
               </div>
             </div>
           </li>
