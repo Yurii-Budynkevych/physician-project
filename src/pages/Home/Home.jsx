@@ -235,16 +235,49 @@ const Home = () => {
             </ul>
           </li>
           <li className="home-section-list-item">
-            <p className="home-section-list-subtitle">Врослий ніготь</p>
-          </li>
-          <li className="home-section-list-item">
-            <p className="home-section-list-subtitle">Хірургічна обробка ран</p>
-          </li>
-          <li className="home-section-list-item">
-            <p className="home-section-list-subtitle">Зняття швів</p>
-          </li>
-          <li className="home-section-list-item">
-            <p className="home-section-list-subtitle">Кліщі</p>
+            <p className="home-section-list-subtitle">Інше</p>
+            <ul className="home-section-sublist">
+              <li className="home-section-sublist-item">
+                <a
+                  className="hero-section-link"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  href="https://uk.wikipedia.org/wiki/%D0%92%D1%80%D0%BE%D1%81%D0%BB%D0%B8%D0%B9_%D0%BD%D1%96%D0%B3%D0%BE%D1%82%D1%8C"
+                >
+                  Врослий ніготь
+                </a>
+              </li>
+              <li className="home-section-sublist-item">
+                <a
+                  className="hero-section-link"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  href="https://uk.wikipedia.org/wiki/%D0%9F%D0%B5%D1%80%D0%B2%D0%B8%D0%BD%D0%BD%D0%B0_%D1%85%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%87%D0%BD%D0%B0_%D0%BE%D0%B1%D1%80%D0%BE%D0%B1%D0%BA%D0%B0_%D1%80%D0%B0%D0%BD%D0%B8"
+                >
+                  Хірургічна обробка ран
+                </a>
+              </li>
+              <li className="home-section-sublist-item">
+                <a
+                  className="hero-section-link"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  href="https://uk.wikipedia.org/wiki/%D0%A5%D1%96%D1%80%D1%83%D1%80%D0%B3%D1%96%D1%87%D0%BD%D0%B8%D0%B9_%D1%88%D0%BE%D0%B2"
+                >
+                  Зняття швів
+                </a>
+              </li>
+              <li className="home-section-sublist-item">
+                <a
+                  className="hero-section-link"
+                  target="_blank"
+                  rel="noreferrer noopener"
+                  href="https://uk.wikipedia.org/wiki/%D0%9A%D0%BB%D1%96%D1%89%D1%96"
+                >
+                  Кліщі
+                </a>
+              </li>
+            </ul>
           </li>
         </ul>
         <p className="home-section-list-title">

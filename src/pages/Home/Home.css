@@ -87,9 +87,9 @@
     font-size: 18px;
 }
 .home-section-list {
-    margin-left: 20px;
+    display: flex;
+    justify-content: space-between;
     margin-bottom: 30px;
-    list-style: decimal;
 }
 .home-section-list-subtitle {
     color: black;
@@ -99,6 +99,5 @@
     font-size: 16px;
 }
 .home-section-sublist {
-    margin-left: 30px;
     list-style: inside;
 }
