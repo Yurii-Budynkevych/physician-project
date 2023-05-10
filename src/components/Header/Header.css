@@ -2,10 +2,19 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+
+    @media screen and (max-width: 720px) {
+        position: relative;
+        }
 }
 .header-logo {
     display: flex;
     align-items: center;
+
+    @media screen and (max-width: 720px) {
+    display: block;
+    position: absolute;
+    }
 }
 .header-logo-img {
     width: 40px;
@@ -17,6 +26,10 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
+
+    @media screen and (max-width: 720px) {
+    display: none;
+    }
 }
 .header-nav-list {
     display: flex;

@@ -8,7 +8,7 @@
     margin: 0 auto;
 }
 .hero-section-title {
-    margin-bottom: 160px;
+    margin-bottom: 180px;
 
     text-align: center;
     color: white;
@@ -61,7 +61,7 @@
 }
 .hero-section {
     display: none;
-    padding-top: 60px;
+    padding-top: 50px;
     margin-bottom: 30px;
     height: 500px;
     
@@ -74,7 +74,7 @@
 }
 .hero-section-second {
     display: none;
-    padding-top: 60px;
+    padding-top: 50px;
     margin-bottom: 30px;
     height: 500px;
 
@@ -86,7 +86,7 @@
 }
 .hero-section-third {
     display: none;
-    padding-top: 60px;
+    padding-top: 50px;
     margin-bottom: 30px;
     height: 500px;
 
