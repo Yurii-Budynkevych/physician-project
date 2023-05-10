@@ -31,30 +31,45 @@ const Home = () => {
         </button>
 
         <section className={`hero-section ${pageCount === 1 ? "active" : ""}`}>
-          <h1 className="hero-section-title">
-            Малі хірургічні операції в амбулаторних умовах, консультація
-            паліативних хворих хірургічного профілю, консультація у
-            лікаря-хірурга.
-          </h1>
+          <div className="hero-section-title-wrapper">
+            <h1 className="hero-section-title">
+              Малі хірургічні операції в амбулаторних умовах, консультація
+              паліативних хворих хірургічного профілю, консультація у
+              лікаря-хірурга.
+            </h1>
+          </div>
+          <a className="home-section-btn-consultation" href="/consultation">
+            Записатися на консультацію
+          </a>
         </section>
 
         <section
           className={`hero-section-second ${pageCount === 2 ? "active" : ""}`}
         >
-          <h1 className="hero-section-title">
-            Без госпіталізаї ✔ В день звернення ✔ Місцевий наркоз ✔ Відсутність
-            тривалої реабілітації ✔ Мінімальні ризики виникнення ускладнень ✔
-          </h1>
+          <div className="hero-section-title-wrapper">
+            <h1 className="hero-section-title">
+              Без госпіталізаї ✔ В день звернення ✔ Місцевий наркоз ✔
+              Відсутність тривалої реабілітації ✔ Мінімальні ризики виникнення
+              ускладнень ✔
+            </h1>
+          </div>
+          <a className="home-section-btn-consultation" href="/consultation">
+            Записатися на консультацію
+          </a>
         </section>
 
         <section
           className={`hero-section-third ${pageCount === 3 ? "active" : ""}`}
         >
-          <h1 className="hero-section-title">
-            Хірургія одного дня – це малоінвазивні операції, з мінімальною
-            травмататизацією, що економлять ваш час та швидко повернуть Вас до
-            повсякденного життя.
-          </h1>
+          <div className="hero-section-title-wrapper">
+            <h1 className="hero-section-title">
+              Хірургія одного дня – це малоінвазивні операції, з мінімальною
+              травмататизацією, що швидко повернуть Вас до повсякденного життя.
+            </h1>
+          </div>
+          <a className="home-section-btn-consultation" href="/consultation">
+            Записатися на консультацію
+          </a>
         </section>
         <h2 className="home-section-list-title">
           На консультації, я детально поясню Ваш стан, можливі відхилення
