@@ -57,16 +57,13 @@ const Home = () => {
           </h1>
         </section>
         <h2 className="home-section-list-title">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Repudiandae
-          minima voluptatibus eos soluta! Accusantium, laborum distinctio velit
-          voluptates neque veniam ex nostrum quasi explicabo iste quos, delectus
-          numquam mollitia debitis?
+          На консультації, я детально поясню Ваш стан, можливі відхилення
+          данного стану та ускладення, що можуть трапитись. При необхідності
+          оперативного лікування, Ви можете звернутися до мене за допомогою.
         </h2>
         <ul className="home-section-list">
           <li className="home-section-list-item">
-            <p className="home-section-list-subtitle">
-              Гнійні захворювання – Пункція; Cанація та дренуваня; Некректомія.
-            </p>
+            <p className="home-section-list-subtitle">Гнійні захворювання</p>
             <ul className="home-section-sublist">
               <li className="home-section-sublist-item">
                 <a
@@ -162,7 +159,7 @@ const Home = () => {
           </li>
           <li className="home-section-list-item">
             <p className="home-section-list-subtitle">
-              Доброякісні новоутворення – Висічення ураженої ділянки шкіри.
+              Доброякісні новоутворення
             </p>
             <ul className="home-section-sublist">
               <li className="home-section-sublist-item">
@@ -238,18 +235,21 @@ const Home = () => {
             </ul>
           </li>
           <li className="home-section-list-item">
-            <p className="home-section-list-subtitle">
-              Врослий ніготь – Висічення врослого нігтя (повне); Крайова
-              резекція нігтьової пластинки.
-            </p>
+            <p className="home-section-list-subtitle">Врослий ніготь</p>
           </li>
           <li className="home-section-list-item">
-            <p className="home-section-list-subtitle">
-              Хірургічна обробка ран – Накладання та зняття швів; Обробка ран та
-              накладання язок; Видалення стороннього тіла із шкіри.
-            </p>
+            <p className="home-section-list-subtitle">Хірургічна обробка ран</p>
+          </li>
+          <li className="home-section-list-item">
+            <p className="home-section-list-subtitle">Зняття швів</p>
+          </li>
+          <li className="home-section-list-item">
+            <p className="home-section-list-subtitle">Кліщі</p>
           </li>
         </ul>
+        <p className="home-section-list-title">
+          І пам'ятайте, що найкраща операція – та, якої вдалось уникнути.
+        </p>
       </main>
     </>
   );

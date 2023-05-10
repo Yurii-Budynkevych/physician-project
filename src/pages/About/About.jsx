@@ -21,9 +21,10 @@ const About = () => {
           </p>
         </aside>
         <h1 className="about-section-title">
-          Iste tempore magni sunt quas ipsa labore impedit necessitatibus nemo
-          fuga suscipit, enim officia eaque. Molestias eius quis inventore,
-          consequuntur sint doloribus?
+          Я, практикуючий лікар хірург з 6-ти річним досвідом роботи. У своїй
+          лікарській практиці використовую новітні методи профілактики та
+          лікування хірургічних патологій. Для кожного пацієнта обираю
+          індивідуальну стратегію лікування (консервативне чи оперативне).
         </h1>
         <ul className="about-section-list">
           <li className="about-section-item">
@@ -95,6 +96,10 @@ const About = () => {
                   <li className="about-section-sublist-item">
                     2023р – Стаціонарна та амбулаторна паліативна допомога
                     важкохворим пацацієнтам № ту-23/589
+                  </li>
+                  <li className="about-section-sublist-item">
+                    2020-2023р. - Активний учасник багатьох наукових хірургічних
+                    конференцій, майстер класів із живої хірургії.
                   </li>
                 </ul>
               </div>

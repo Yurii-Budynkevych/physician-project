@@ -87,6 +87,8 @@
     font-size: 18px;
 }
 .home-section-list {
+    margin-left: 20px;
+    margin-bottom: 30px;
     list-style: decimal;
 }
 .home-section-list-subtitle {
