@@ -48,9 +48,8 @@ const Home = () => {
         >
           <div className="hero-section-title-wrapper">
             <h1 className="hero-section-title">
-              Без госпіталізаї ✔ В день звернення ✔ Місцевий наркоз ✔
-              Відсутність тривалої реабілітації ✔ Мінімальні ризики виникнення
-              ускладнень ✔
+              Без госпіталізаї, в день звернення, місцевий наркоз, відсутність
+              тривалої реабілітації, мінімальні ризики виникнення ускладнень
             </h1>
           </div>
           <a className="home-section-btn-consultation" href="/consultation">
