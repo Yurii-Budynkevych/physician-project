@@ -2,10 +2,19 @@
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
+
+    @media screen and (max-width: 768px) {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    }
 }
 .hero-section-title-wrapper {
     width: 600px;
     margin: 0 auto;
+
+    @media screen and (max-width: 768px) {
+        width: 300px;
+    }
 }
 .hero-section-title {
     margin-bottom: 200px;
@@ -16,6 +25,11 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
+
+    @media screen and (max-width: 768px) {
+        margin-bottom: 250px;
+        font-size: 18px;
+    }
 }
 .home-section-btn-incr {
     position: absolute;
@@ -71,6 +85,11 @@
             rgba(47, 48, 58, 0.4)), 
         url("../../img/operatingRoom.jpg");
     background-size: cover;
+    background-position: center;
+
+    @media screen and (max-width: 768px) {
+        height: 550px;
+    }
 }
 .hero-section-second {
     display: none;
@@ -83,6 +102,12 @@
             rgba(47, 48, 58, 0.4)),
         url("../../img/equipmentModern.jpg");
     background-size: cover;
+    background-position: center;
+
+    @media screen and (max-width: 768px) {
+        height: 550px;
+        background-position: 65% 25%;
+    }
 }
 .hero-section-third {
     display: none;
@@ -95,6 +120,11 @@
             rgba(47, 48, 58, 0.4)),
         url("../../img/hospitalWard.jpg");
     background-size: cover;
+    background-position: center;
+
+    @media screen and (max-width: 768px) {
+        height: 550px;
+    }
 }
 .active {
     display: block;
