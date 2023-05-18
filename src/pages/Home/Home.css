@@ -2,19 +2,10 @@
     position: relative;
     padding-top: 100px;
     padding-bottom: 100px;
-
-    @media screen and (max-width: 768px) {
-    padding-top: 50px;
-    padding-bottom: 50px;
-    }
 }
 .hero-section-title-wrapper {
     width: 600px;
     margin: 0 auto;
-
-    @media screen and (max-width: 768px) {
-        width: 300px;
-    }
 }
 .hero-section-title {
     margin-bottom: 200px;
@@ -25,11 +16,6 @@
     font-style: normal;
     font-weight: 700;
     font-size: 24px;
-
-    @media screen and (max-width: 768px) {
-        margin-bottom: 250px;
-        font-size: 18px;
-    }
 }
 .home-section-btn-incr {
     position: absolute;
@@ -86,11 +72,6 @@
         url("../../img/operatingRoom.jpg");
     background-size: cover;
     background-position: center;
-
-    @media screen and (max-width: 768px) {
-        height: 550px;
-        background-position: 55% 25%;
-    }
 }
 .hero-section-second {
     display: none;
@@ -104,11 +85,6 @@
         url("../../img/equipmentModern.jpg");
     background-size: cover;
     background-position: center;
-
-    @media screen and (max-width: 768px) {
-        height: 550px;
-        background-position: 68% 25%;
-    }
 }
 .hero-section-third {
     display: none;
@@ -122,10 +98,6 @@
         url("../../img/hospitalWard.jpg");
     background-size: cover;
     background-position: center;
-
-    @media screen and (max-width: 768px) {
-        height: 550px;
-    }
 }
 .active {
     display: block;
@@ -138,24 +110,11 @@
     font-style: normal;
     font-weight: 700;
     font-size: 18px;
-
-    @media screen and (max-width: 768px) {
-        font-size: 16px;
-    }
 }
 .home-section-list {
     display: flex;
     justify-content: space-between;
     margin-bottom: 30px;
-
-    @media screen and (max-width: 768px) {
-        display: block;
-    }
-}
-.home-section-list-item {
-    @media screen and (max-width: 768px) {
-        margin-bottom: 30px;
-    }  
 }
 .home-section-list-subtitle {
     margin-bottom: 5px;
@@ -167,4 +126,38 @@
 }
 .home-section-sublist {
     list-style: inside;
+}
+
+@media screen and (max-width: 768px) {
+    .home-section {
+        padding-top: 50px;
+        padding-bottom: 50px;
+    }
+    .hero-section-title-wrapper {
+        width: 300px;
+    }
+    .hero-section-title {
+        margin-bottom: 250px;
+        font-size: 18px;
+    }
+    .hero-section {
+        height: 550px;
+        background-position: 55% 25%;
+    }
+    .hero-section-second {
+        height: 550px;
+        background-position: 68% 25%;
+    }
+    .hero-section-third {
+        height: 550px;
+    }
+    .home-section-list-title {
+        font-size: 16px;
+    }
+    .home-section-list {
+        display: block;
+    }
+    .home-section-list-item {
+        margin-bottom: 30px;
+    }
 }
