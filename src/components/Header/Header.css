@@ -71,7 +71,6 @@
 }
 
 .header-burger {
-    display: none;
     position: absolute;
     z-index: 2;
     right: 0;
@@ -157,7 +156,7 @@
 }
 
 /* media querys */
-@media screen and (max-width: 991px) {
+@media screen and (max-width: 768px) {
     .header {
         display: block;
         height: 40px;
@@ -180,8 +179,10 @@
     .header-contacts-list {
         display: none;
     }
+}
 
+@media screen and (min-width: 769px) {
     .header-burger {
-        display: block;
+        display: none;
     }
 }
